@@ -7,6 +7,7 @@ theme = "m10c"
 [params]
 description = "Just Normal Human Attempting to be a Better Software Developer"
 menu_item_separator = "/"
+avatar = "phpMlt7JK_c3AM.jpg"
   [params.style]
     darkestColor = "#202c39"
     darkColor = "#283845"
