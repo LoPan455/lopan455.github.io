@@ -1,37 +1,44 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Tom's Hugo Site"
-theme = "m10c"
+theme = "hugo-coder"
+
 
 
 [params]
-description = "Just Normal Human Attempting to be a Better Software Developer"
-menu_item_separator = "/"
-  [params.style]
-    darkestColor = "#202c39"
-    darkColor = "#283845"
-    lightColor = "#b8b08d"
-    lightestColor = "#f2d492"
-    primaryColor = "#f29559"
+hideCopyright = true
+hideCredits = true
+colorScheme = "auto"
+author = "Thomas Johander"
+info = "Software Engineer"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/lopan455/"
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    name = "Posts"
-    url = "/posts/"
-    weight = 2
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 3
-  [[menu.main]]
-    identifier = "Directoy 1"
-    name = "Dir-1"
-    url = "/dir1/"
-    weight = 4
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+identifier = "tags"
+name = "Posts"
+url = "/posts/"
+weight = 3
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 4
