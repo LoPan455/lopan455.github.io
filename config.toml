@@ -3,8 +3,6 @@ languageCode = "en-us"
 title = "Tom's Hugo Site"
 theme = "hugo-coder"
 
-
-
 [params]
 hideCopyright = true
 hideCredits = true
