@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2021-07-13T06:51:31-05:00
-draft: true
+draft: false
 ---
 ## Who Is Thomas Johander?
 
